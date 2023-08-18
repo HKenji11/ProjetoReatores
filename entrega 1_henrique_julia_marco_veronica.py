@@ -41,7 +41,7 @@ espessura = 0.001       # Espessura da camisa
 comprimentoLamp = 1.5   # Comprimento da lâmpada em metros
 espacamento = 0.001     # Espaçamento entre a lâmpada e a camisa
 densAparente =  1400    # Densidade aparente do leito fixo em kg/m³
-fracaoVazios = 0.35     # Fração de vazioss
+fracaoVazios = 0.35     # Fração de vazios
 
 
 # Cálculo do volume da lâmpada
@@ -66,7 +66,7 @@ print(f"A massa de catalisador para uma lâmpada {massaCat} kg")
 
 # Estimativa das vazões molares dos componentes Água e Metanol, em mol/h
 fa0 = 700
-fb0 = 835
+fb0 = 846
 
 fc0 = fd0 = fe0 = 0              
 ft0 = fa0 + fb0 + fc0 + fd0 + fe0
